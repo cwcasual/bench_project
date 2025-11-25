@@ -21,6 +21,7 @@ body {
     height: 100%;          
     object-fit: cover;     
     object-position: top;  
+    margin: 0 auto;
 }
 
 .hero h1 {
@@ -75,7 +76,13 @@ footer img {
         font-size: 2.6rem;
     }
 
-    header.hero img,
+    .hero img {
+        width: auto;          /* let image shrink naturally */
+        max-width: 90%;       /* leave 5% margin on each side */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     footer img {
         width: auto;          /* let image shrink naturally */
         max-width: 90%;       /* leave 5% margin on each side */
