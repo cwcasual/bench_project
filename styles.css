@@ -70,22 +70,30 @@ footer img {
     margin: 0 auto;
     object-fit: contain;
 }
+
 /* Desktop improvements */
 @media (min-width: 768px) {
     .hero h1 {
         font-size: 2.6rem;
     }
 
+    .hero {
+        padding-left: 5%;    /* add transparent margin */
+        padding-right: 5%;   /* add transparent margin */
+    }
+
     .hero img {
-        width: auto;          /* let image shrink naturally */
-        max-width: 90%;       /* leave 5% margin on each side */
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;         /* full width of hero container */
+        height: 100%;
+        object-fit: cover;   
+        object-position: top;
+        display: block;
+        margin: 0;           /* remove auto centering */
     }
 
     footer img {
-        width: auto;          /* let image shrink naturally */
-        max-width: 90%;       /* leave 5% margin on each side */
+        width: auto;
+        max-width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -94,4 +102,3 @@ footer img {
         font-size: 1.15rem;
     }
 }
-
