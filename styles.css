@@ -44,6 +44,12 @@ body {
     color: #2a4d5c;
 }
 
+.content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #2a4d5c;
+}
+
 .content p {
     margin: 0.5rem 0;
     font-size: 1.05rem;
