@@ -62,6 +62,15 @@ body {
     margin-right: 0;
 }
 
+.content img {
+    display: block;          /* Removes inline gaps and allows centering */
+    max-width: 100%;         /* Ensures it never exceeds the content width */
+    height: auto;            /* Maintains aspect ratio */
+    margin: 1rem auto;       /* Space above/below + centered */
+    border-radius: 6px;      /* Optional: subtle soft corners */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08); /* Optional: gentle shadow */
+}
+
 /* Footer */
 footer {
     text-align: center;
