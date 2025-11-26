@@ -49,6 +49,16 @@ body {
     font-size: 1.05rem;
 }
 
+.quote {
+    font-style: italic;                  /* makes it feel like a quote */
+    color: #555;                         /* softer than black (#333) */
+    border-left: 4px solid #2a4d5c;     /* subtle accent line */
+    padding: 0.5rem 1rem;                /* space around the text */
+    margin: 1rem 0;                      /* spacing from other content */
+    background-color: #f0f4f8;           /* optional light background */
+    border-radius: 4px;                  /* slightly rounded corners */
+}
+
 /* Footer */
 footer {
     text-align: center;
