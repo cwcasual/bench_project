@@ -57,7 +57,7 @@ body {
     margin: 1rem 0;
     background-color: #f0f4f8;
     border-radius: 4px;
-    width: calc(100% + 3rem);  
+    width: calc(90% + 3rem);  
     margin-left: -1.5rem;
     margin-right: -1.5rem;
 }
