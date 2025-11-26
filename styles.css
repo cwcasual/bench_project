@@ -99,7 +99,8 @@ footer img {
         max-width: 90%;
         height: 100%;
         object-fit: cover;
-        object-position: top;
+        /*object-position: top;*/
+        object-position: 50% 29%;
         display: block;
         margin: 0 auto;      /* center image horizontally */
     }
